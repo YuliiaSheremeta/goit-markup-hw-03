@@ -1,0 +1,166 @@
+ body{
+font-family: "Roboto", sans-serif;
+        color: #434455;
+        background-color: #fff;
+ }
+ul, ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*Heder*/
+.logo{
+    font-family: "Raleway", sans-serif ;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+.header-logo .logo-part {
+    color: #2e2f42;
+}
+
+.nav-link{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.contacts {
+    font-style: normal;
+}
+.contacts-link{
+    
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus,
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
+}
+
+/*Section Button*/
+
+.section-order{
+    background-color: #2e2f42;
+}
+.section-order-text{
+   
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+.section-button{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+            background: #4d5ae5;
+            cursor: pointer;
+}
+.section-button:hover,
+.section-button:focus{
+   
+        background-color: #404bbf;
+}
+
+/*Footer*/
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+.page-footer{
+    background-color: #2e2f42;
+   
+}
+.footer-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+/*Our Team*/
+.section-team{
+    
+    background: #f4f4fd;
+}
+.section-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+color: #2e2f42;
+       
+}
+.name-team{
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+   
+}
+.section-team-item{
+
+    background: #fff;
+}
+.section-team-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+/*Features*/
+.features-name{
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.features-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/*Our Portfolio*/
+
+.portfolio-product{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.portfolio-product-description{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
