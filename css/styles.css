@@ -52,7 +52,11 @@ img{
 .nav-list{
     display: flex;
     gap: 40px;
-    padding-top: 24px;
+    margin-right: 332px;
+    
+}
+.nav-item{
+padding-top: 24px;
     padding-bottom: 24px;
 }
 .contacts-list {
@@ -60,6 +64,7 @@ img{
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    
     
 
 }
@@ -119,7 +124,9 @@ img{
         text-align: center;
         color: #fff;
         max-width: 496px;
-        margin-bottom: 48px;      
+        margin-bottom: 48px;    
+        margin-left: auto;  
+        margin-right: auto;
 }
 .section-button{
     font-weight: 500;
