@@ -52,7 +52,7 @@ img{
 .nav-list{
     display: flex;
     gap: 40px;
-    margin-right: 332px;
+    
     
 }
 
@@ -72,8 +72,12 @@ img{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+       
+}
+.header-logo{
         margin-right: 76px;
 }
+
 .header-logo .logo-part {
     color: #2e2f42;
     
@@ -87,10 +91,11 @@ img{
         color: #2e2f42;
         padding-top: 24px;
         padding-bottom: 24px;
+        display: block;
 }
 .contacts {
     font-style: normal;
-   
+   margin-left: auto;
 }
 .contacts-link{
     
@@ -107,7 +112,7 @@ img{
     color: #404bbf;
 }
 
-/*Section Order Button*/
+/*Section Hero*/
 .section-order{
         background-color: #2e2f42;
         padding-top: 188px;
@@ -151,9 +156,9 @@ img{
 }
 
 
-/*Our Team*/
+/* Section Our Team*/
 
-.section-team{
+.section-our-team{
  background: #f4f4fd;
 }
 
@@ -202,7 +207,7 @@ img{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-/*Features*/
+/*Section Features*/
 
 .visually-hidden {
     position: absolute;
@@ -241,7 +246,7 @@ font-weight: 500;
         color: #434455;
 }
 
-/*Our Portfolio*/
+/*Section Our Portfolio*/
 .title-portfolio{
     margin-bottom: 72px;
 }
@@ -277,7 +282,7 @@ width: calc((100% - 48px) / 3);
     border: 1px solid  #E7E9FC;
     padding: 32px 16px;
     border-top: none;
-    margin-bottom: 8px;
+   
 }
 
 /*Footer*/
